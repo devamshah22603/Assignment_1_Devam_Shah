@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Linking the CSS file here -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-heading-flex">
+        <!-- logo -->
+        <img
+          src="./Assets/ds-logo-letter-design-vector.jpg"
+          alt="logo"
+          style="height: 250px"
+        />
+        <!-- main title -->
+        <div class="main-title">
+          <h1>Devam Shah Company</h1>
+        </div>
+      </div>
+      <!-- navigation bar -->
+      <div class="main-navigation-content-flex">
+        <div class="home-content nav-bar">Home</div>
+        <div class="portfolio-content nav-bar">Portfolio</div>
+        <div class="about-content nav-bar">About</div>
+        <div class="contact-content nav-bar">Contact</div>
+      </div>
+      <!-- main content -->
+      <div class="main-content-flex">
+        <div class="main-sidebar">
+          <!-- sideBar Heading -->
+          <h2>My Career</h2>
+          <!-- sideBar text -->
+          Meet Devam Shah, a versatile IT engineer with a passion for innovation
+          and a knack for problem-solving. Armed with a diverse skill set that
+          spans multiple languages and deep technical expertise, Devam is a
+          driving force behind the success of his company in providing
+          cutting-edge solutions for both hardware and software needs. As an IT
+          engineer, Devam brings a unique blend of technical proficiency and
+          linguistic agility to the table. Fluent in several programming
+          languages including Python, Java, C++, and JavaScript, he possesses
+          the ability to navigate complex coding challenges with ease. His
+          mastery of these languages allows him to develop robust software
+          solutions tailored to meet the specific requirements of clients across
+          various industries.
+        </div>
+        <div class="main-page">
+          <!-- Page Heading -->
+          <h1>Welcome To IT World</h1>
+          <!-- Page photo -->
+          <img
+            src="./Assets/Namtek-IT-solutions-1030x730.webp"
+            alt="max"
+            style="height: 500px"
+          />
+          <!-- Heading content -->
+          Welcome to the dynamic realm of Information Technology, where
+          innovation meets possibility and every line of code holds the
+          potential to reshape the future. In this fast-paced landscape,
+          technology is not just a tool, but a catalyst for transformation,
+          driving progress and unlocking new realms of possibility. From the
+          intricate networks that power our communication to the elegant
+          algorithms that drive efficiency, IT is the beating heart of the
+          digital age. Welcome to a world where creativity knows no bounds, and
+          every problem is an opportunity waiting to be solved. Welcome to the
+          IT world, where the only limit is your imagination.
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="copyright">
+          <!-- copyright -->
+          <p>
+            &copy; <span id="currentYear"></span> Devam Shah | Email:
+            devamshahcompany@gmail.com
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>

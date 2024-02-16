@@ -1,0 +1,64 @@
+body{
+    background-color: #E3E3E3;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto; /* Center the container */
+}
+
+.main-heading-flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.main-title{
+    width: 400px;
+}
+
+.main-navigation-content-flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6D5DB;
+}
+
+.nav-bar{
+    padding: 20px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative; /* Positioning for dropdown */
+}
+
+.nav-bar:hover{
+    background-color: silver; /* Change background color on hover */
+}
+
+.nav-bar:hover .dropdown-list{
+    display: block; /* Show the list on hover */
+}
+
+.dropdown-list{
+    display: none; /* Initially hide the list */
+    position: absolute; /* Position the list */
+    top: 100%; /* Align below the nav bar */
+    left: 0;
+    background-color: #C6D5DB; /* Match the nav bar background */
+    padding: 10px;
+}
+
+.main-content-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid;
+}
